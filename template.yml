@@ -96,14 +96,24 @@ pinmap:
 # All functional pin names in this section will be available in Zerynth programs.
 pinclasses:
     # analog pins: [ pin name, ADC channel ]
-    A0: [ D32, 4 ]
-    A1: [ D33, 5 ]
-    A2: [ D34, 6 ]
-    A3: [ D35, 7 ]
-    A4: [ D36, 0 ]
-    A5: [ D37, 1 ]
-    A6: [ D38, 2 ]
-    A7: [ D39, 3 ]
+    A0: [ D32, 4, 0]
+    A1: [ D33, 5, 0]
+    A2: [ D34, 6, 0]
+    A3: [ D35, 7, 0]
+    A4: [ D36, 0, 0]
+    A5: [ D37, 1, 0]
+    A6: [ D38, 2, 0]
+    A7: [ D39, 3, 0]
+    A8: [ D25, 8, 1]
+    A9: [ D26, 9, 1]
+    A10: [ D27, 7, 1]
+    A11: [ D14, 6, 1]
+    A12: [ D12, 5, 1]
+    A13: [ D13, 4, 1]
+    A14: [ D4, 0, 1]
+    A15: [ D0, 1, 1]
+    A16: [ D2, 2, 1]
+    A17: [ D15, 3, 1]
     # spi pins:
     MOSI0: D13
     MISO0: D12
@@ -137,28 +147,34 @@ pinclasses:
     PWM3: D3
     PWM4: D4
     PWM5: D5
-    PWM6: D11
-    PWM7: D12
-    PWM8: D13
-    PWM9: D14
-    PWM10: D15
-    PWM11: D16
-    PWM12: D17
-    PWM13: D18
-    PWM14: D19
-    PWM15: D20
-    PWM16: D21
-    PWM17: D22
-    PWM18: D23
-    PWM19: D24
-    PWM20: D25
-    PWM21: D26
-    PWM22: D27
-    PWM23: D28
-    PWM24: D29
-    PWM25: D30
-    PWM26: D31
-    PWM27: D32
+    PWM6: D6
+    PWM7: D7
+    PWM8: D8
+    PWM9: D9
+    PWM10: D10
+    PWM11: D11
+    PWM12: D12
+    PWM13: D13
+    PWM14: D14
+    PWM15: D15
+    PWM16: D16
+    PWM17: D17
+    PWM18: D18
+    PWM19: D19
+    PWM20: D20
+    PWM21: D21
+    PWM22: D22
+    PWM23: D23
+    PWM24: D24
+    PWM25: D25
+    PWM26: D26
+    PWM27: D27
+    PWM28: D28
+    PWM29: D29
+    PWM30: D30
+    PWM31: D31
+    PWM32: D32
+    PWM33: D33
 # the *peripherals* section contains the available peripherals and their details.
 # In particular the below configuration exposes the following  peripherals:
 #

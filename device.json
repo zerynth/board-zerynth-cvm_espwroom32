@@ -24,6 +24,7 @@
     "virtualizable":"ESPWROOM32",
     "has_alter_ego":false,
     "uplink_reset": "reset",
+    "flash_erasable": true,
     "reset_after_uplink": true,
     "reset_time": 4000,
     "rodata_in_ram":true,
