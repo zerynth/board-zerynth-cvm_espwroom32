@@ -63,7 +63,7 @@ class ESPWROOM32(Board):
         res,out,err = proc.runcmd("python",tools["esptool32"],
                 "--chip", "esp32",
                 "--port",self.port,
-                "--baud","1500000",
+                "--baud","115200",
                 "--before", "default_reset", 
                 "--after", "hard_reset",
                 "write_flash",
